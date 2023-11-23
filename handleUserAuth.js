@@ -34,7 +34,7 @@ async function handleGoogleSignUp(){
 };
 
 // obtaining the button located in 'index.html' through the id 'button'
-const signInBtn = document.getElementById("button");
+const signInBtn = document.getElementById("button"); //get the html id
 
 // Listener that will trigger when the signin button is clicked 
 // Once Button is clicked function handleGoogleSignUp is called
